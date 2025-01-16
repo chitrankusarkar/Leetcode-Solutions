@@ -15,7 +15,6 @@ public:
             i++;
             temp = temp->next;
         }
-        temp = head;
-        return temp;
+        return head;
     }
 };
